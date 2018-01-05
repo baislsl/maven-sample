@@ -11,5 +11,11 @@
 
     <artifactId>sub2</artifactId>
 
-
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+    </build>
 </project>
